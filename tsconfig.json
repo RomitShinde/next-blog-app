@@ -27,7 +27,7 @@
 // }
 {
   "compilerOptions": {
-    "jsx": "react",
+    "jsx": "preserve",
     "target": "ES2017",
     "lib": [
       "dom",
