@@ -28,6 +28,7 @@
 
 {
   "compilerOptions": {
+    "jsx": "react-jsx",
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -39,7 +40,7 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    // "jsx": "preserve",
     "incremental": true,
     "plugins": [
       {
