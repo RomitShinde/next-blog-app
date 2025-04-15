@@ -1,8 +1,8 @@
 import React, { Suspense } from "react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Card } from "@/components/ui/card";
-import { Skeleton } from "@/components/ui/skeleton";
+// import { Card } from "@/components/ui/card";
+// import { Skeleton } from "@/components/ui/skeleton";
 import { fetchArticleByQuery } from "@/lib/query/fetch-articles";
 import ArticleSearchInput from "@/components/articles/article-search-input";
 import AllArticlesPageSkeleton from "@/app/articles/all-articles-page-skeleton"; // Corrected Import
